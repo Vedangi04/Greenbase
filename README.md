@@ -12,6 +12,7 @@ Live app: https://nyc-green-base.base44.app
 - **Retrofit planner** with toggleable upgrades, cost ranges, emissions cuts and payback
 - **Incentive finder** for federal, state, city and utility programs
 - **AI advisor** that writes a compliance strategy for a given building
+- **Compliance agent** that investigates a building step by step with tools (compliance check, retrofit simulation, incentive lookup, peer benchmark) and recommends a plan; all figures come from the app's own calculations (`src/lib/complianceAgent.js`)
 - **Compare buildings** and **NYC rankings** pages
 
 ## Tech stack

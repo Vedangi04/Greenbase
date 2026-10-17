@@ -9,6 +9,7 @@ import FineProjectionChart from "@/components/dashboard/FineProjectionChart";
 import GreenBaseScore from "@/components/dashboard/GreenBaseScore";
 import FinePaysWidget from "@/components/dashboard/FinePaysWidget";
 import AIAdvisor from "@/components/dashboard/AIAdvisor";
+import ComplianceAgent from "@/components/dashboard/ComplianceAgent";
 import PayVsFixChart from "@/components/dashboard/PayVsFixChart";
 import { calcGreenBaseScore } from "@/lib/nycOpenData";
 import { INCENTIVES } from "@/lib/incentiveData";
@@ -257,6 +258,7 @@ export default function Dashboard() {
           <FineProjectionChart compliance={compliance} />
           <FinePaysWidget compliance={compliance} building={building} />
           <AIAdvisor building={building} />
+          <ComplianceAgent building={building} />
           <PayVsFixChart building={building} />
         </div>
 
